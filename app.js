@@ -39,7 +39,7 @@ app.post("/", function(req, res){
 
   const options = {
     method: "post",
-    auth: "viplav1:e683f29e0934519b93215458e23330d0-us17"
+    auth: "viplav1:1b9425b63743c6f85da4b7b38851cd8a-us17"
   };
 
   const request = https.request(url, options, function(response){
@@ -77,13 +77,3 @@ app.post("/failure", function(req, res){
 app.listen(process.env.PORT || 3000, function(){
   console.log("Server is running at port 3000.");
 });
-
-
-
-
-
-
-// Api Key mailchimp
-// e683f29e0934519b93215458e23330d0-us17
-// List id
-// 0e522c1ba6
